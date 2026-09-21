@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Savage Peynir Altı Suyu Proteini",
+    "description": "En iyi kas gelişimi için yüksek kaliteli izole protein desteği.",
+    "stock": 0,
+    "price": "550"
+  },
+  {
+    "id": 2,
+    "name": "Ağırlık Seti 10kg",
+    "description": "Evde ve spor salonunda kullanıma uygun dayanıklı ağırlık seti.",
+    "stock": 15,
+    "price": "100"
+  },
+  {
+    "id": 3,
+    "name": "Train Savage Tişört",
+    "description": "Nefes alabilen kumaşıyla rahat bir antrenman deneyimi sunar.",
+    "stock": 9,
+    "price": 225
+  },
+  {
+    "id": 4,
+    "name": "Spor Havlusu",
+    "description": "Yumuşak dokulu ve hızlı kuruyan spor havlusu.",
+    "stock": 10,
+    "price": 175
+  },
+  {
+    "id": 5,
+    "name": "protein tozu cikolatali",
+    "description": "Cıkolata Aromalı proteın tozu destegı",
+    "stock": 8,
+    "price": "322"
+  },
+  {
+    "id": 6,
+    "name": "spor tshirti",
+    "description": "Spor icin esnek terletmeyen rahat,pamuklu, esnek yapili t-shirt",
+    "stock": 22,
+    "price": "765"
+  },
+  {
+    "id": 7,
+    "name": "Spor Havlusu",
+    "description": "Yumuşak dokulu ve hızlı kuruyan spor havlusu.",
+    "stock": 12,
+    "price": "195"
+  },
+  {
+    "id": 8,
+    "name": "Nike Spor Erkek Ayakkabi",
+    "stock": 12,
+    "price": "2500"
+  },
+  {
+    "id": 9,
+    "name": "Puma Kadin Spor Ayakkabi",
+    "stock": 123,
+    "price": "3500"
+  },
+  {
+    "id": 10,
+    "name": "Delkta Force Fitness Eldiveni",
+    "stock": 233,
+    "price": "309",
+    "description": "Siyah Ağırlık Body Dambıl Halter Fitness Eldiveni"
+  },
+  {
+    "id": 11,
+    "name": "Spor Havlusu",
+    "stock": 12,
+    "price": "300",
+    "description": "Spor icin rahat kullanim"
+  },
+  {
+    "id": 12,
+    "name": "Spor Eldiveni",
+    "stock": 12,
+    "price": "120",
+    "description": "Spor icin ozel doku yapisina sahip, terletmeyen ve kullanimi rahat spor eldiveni."
+  },
+  {
+    "id": 13,
+    "name": "deneme",
+    "stock": 222,
+    "price": "100",
+    "description": "deneme urunu"
+  },
+  {
+    "id": 14,
+    "name": "sadasd",
+    "stock": 12,
+    "price": "22",
+    "description": "sadasdasda"
+  }
+]

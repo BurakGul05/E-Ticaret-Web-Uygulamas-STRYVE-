@@ -1,0 +1,756 @@
+@import './base.css';
+
+.sepetsidebar{
+      position: fixed;
+      right: 20px;
+      top: 50%;
+}
+.navbar-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+}
+
+.nav-item a {
+      color: rgb(73, 36, 42);
+      text-decoration: none;
+      font-size: 20px;
+      transition: 0.3s;
+}
+.navigasyon a:hover {
+      color: #e40202;
+}
+
+.btn_btn-outline-success_my-2_my-sm-0 {
+      font-size: 90px;
+}
+
+/* ! ABOUT SAYFASI */
+.metin-kutusu {
+      font-size: 30px;
+      color: white;
+}
+
+/* .dev-baslik {
+      color: rgb(250, 248, 248);
+      margin-bottom: 30px;
+} */
+
+/* !CONTACT SAYFASI */
+.form-group {
+      color: red;
+}
+
+.content {
+      color: blueviolet;
+}
+
+
+
+
+
+/* !EN GUNCEL CSSLER */
+body {
+
+      background-color: black;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      font-family: "Arial Black", sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+}
+
+.nav-link {
+      color: black;
+}
+
+
+/* !bu yeni eklendi   */
+.d-block.w-100 {
+      background-color: rgb(214, 4, 4);
+      font-size: medium;
+}
+
+.ust-header {
+      padding: 20px 0;
+      text-align: center;
+}
+
+/* ! yeni eklendi  */
+.container.textcenter {
+      font-size: 90;
+}
+
+.navigasyon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      background-color: black;
+}
+
+.navigasyon a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: 0.3s;
+}
+
+.navigasyon a:hover {
+      color: #ccc;
+}
+
+
+.modal-content {
+      color: black !important;
+      font-family: Arial, sans-serif;
+      border-radius: 12px;
+}
+
+.form-label {
+      font-weight: bold;
+      font-size: 14px;
+}
+
+.modal-header .btn-close {
+      margin-bottom: 5px;
+}
+
+/* !yeni eklendi */
+.carousel-item {
+      height: auto;
+}
+
+.carousel-item img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+}
+
+/* !yeni eklendi */
+.slider-yazi {
+      background-color: #0c0c0c;
+      color: rgb(245, 247, 247);
+      font-size: 25px;
+}
+
+/* ! ABOUT SAYFAMIN CSS LERI */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+}
+
+body {
+      background-color: #ffffff;
+      color: #333;
+}
+
+
+.ust-kisim {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 5%;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 100;
+}
+
+.ust-kisim a {
+      text-decoration: none;
+      color: black;
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 18px;
+      margin-left: 20px;
+      transition: 0.3s;
+}
+
+.ust-kisim a:hover {
+      color: #666;
+}
+
+.hakkimizda-konteynir {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 100vh;
+      padding: 50px 10%;
+      gap: 50px;
+}
+
+.metin-kutusu {
+      flex: 1;
+}
+
+.dev-baslik {
+      font-size: 80px;
+      font-style: italic;
+      font-family: 'Arial Black', sans-serif;
+      color: rgb(245, 240, 240);
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      letter-spacing: -2px;
+}
+
+.aciklama-yazisi {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #1a1a1a;
+      max-width: 450px;
+      text-align: justify;
+}
+
+.resim-kutusu {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+}
+
+.tenisci-resmi {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+      color: black !important;
+      font-family: Arial, sans-serif;
+      border-radius: 12px;
+}
+
+.form-label {
+      font-weight: bold;
+      font-size: 14px;
+}
+
+@media (max-width: 768px) {
+      .hakkimizda-konteynir {
+            flex-direction: column;
+            padding: 100px 5% 50px 5%;
+            text-align: center;
+      }
+
+      .aciklama-yazisi {
+            margin: 0 auto;
+      }
+
+}
+
+
+
+
+/* !PRODUCTS  */
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+      background-color: #1a1a1a;
+      color: #ffffff;
+      line-height: 1.6;
+}
+
+header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #222;
+      border-bottom: 1px solid #333;
+}
+
+.logo {
+      font-size: 24px;
+      font-weight: bold;
+      font-style: italic;
+      letter-spacing: 1px;
+}
+
+nav ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      margin-bottom: 0;
+}
+
+nav ul li {
+      margin-left: 25px;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 14px;
+      text-transform: uppercase;
+      transition: color 0.3s;
+}
+
+nav ul li a:hover {
+      color: #aaa;
+}
+
+.profile-icon {
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+}
+
+.page-title {
+      text-align: center;
+      padding: 50px 20px;
+      color: white;
+}
+
+.page-title h1 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      font-style: italic;
+      letter-spacing: 3px;
+}
+
+.container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+}
+
+.product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 25px;
+}
+
+.product-card {
+      background-color: #262626;
+      border: 1px solid #3a3a3a;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      padding: 10%;
+      transition: transform 0.3s, border-color 0.3s;
+}
+
+.product-card:hover {
+      transform: translateY(-5px);
+      border-color: #555;
+}
+
+.product-image {
+      width: 100px;
+      height: 100px;
+      background-color: #333;
+      border-radius: 5px;
+      margin-right: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+}
+
+.product-image img {
+      width: 100%;
+      height: auto;
+}
+
+.product-info h3 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      color: #efefef;
+}
+
+.product-info p {
+      font-size: 0.9rem;
+      color: #aaa;
+}
+
+.modal-content {
+      background-color: #ffffff;
+      color: #000;
+      border-radius: 15px;
+}
+
+.modal-header {
+      border-bottom: none;
+      padding-bottom: 0;
+}
+
+.modal-footer {
+      border-top: none;
+}
+
+.modal-title {
+      font-weight: bold;
+      font-size: 24px;
+}
+
+.form-label {
+      font-weight: bold;
+      font-size: 13px;
+      margin-bottom: 5px;
+}
+
+.form-control {
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      padding: 10px;
+}
+
+.btn-primary {
+      background-color: #0d6efd;
+      border: none;
+      padding: 12px;
+      font-weight: bold;
+      border-radius: 8px;
+}
+
+.modal-link {
+      font-size: 13px;
+      text-decoration: underline;
+      color: #0d6efd;
+      cursor: pointer;
+}
+
+/* !ABOUT SAYFAM CSS */
+body {
+      background-color: #ffffff;
+      color: #333;
+}
+
+
+.ust-kisim {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 5%;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 100;
+}
+
+.ust-kisim a {
+      text-decoration: none;
+      color: black;
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 18px;
+      margin-left: 20px;
+      transition: 0.3s;
+}
+
+.ust-kisim a:hover {
+      color: #666;
+}
+
+.hakkimizda-konteynir {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 100vh;
+      padding: 50px 10%;
+      gap: 50px;
+}
+
+.metin-kutusu {
+      flex: 1;
+}
+
+.dev-baslik {
+      font-size: 80px;
+      font-style: italic;
+      font-family: 'Arial Black', sans-serif;
+      color: black;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      letter-spacing: -2px;
+}
+
+.aciklama-yazisi {
+      font-size: 26px;
+      line-height: 1.8;
+      color: #f7f6f6;
+      max-width: 450px;
+      text-align: justify;
+}
+
+.resim-kutusu {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+}
+
+.tenisci-resmi {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+      color: black !important;
+      font-family: Arial, sans-serif;
+      border-radius: 12px;
+}
+
+.form-label {
+      font-weight: bold;
+      font-size: 14px;
+}
+
+@media (max-width: 768px) {
+      .hakkimizda-konteynir {
+            flex-direction: column;
+            padding: 100px 5% 50px 5%;
+            text-align: center;
+      }
+
+      .aciklama-yazisi {
+            margin: 0 auto;
+      }
+
+
+}
+
+/* !CONTACT */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+}
+/* !HOME IMG*/
+
+body {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(../assets/img/bg-1.jpeg) no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+}
+
+header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 60px;
+}
+
+.logo {
+      font-size: 26px;
+      font-weight: 900;
+      font-style: italic;
+      color: white;
+      text-transform: uppercase;
+}
+
+nav ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      margin: 0;
+}
+
+nav ul li {
+      margin-left: 30px;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: 700;
+      font-size: 15px;
+      text-transform: uppercase;
+}
+
+.user-icon {
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+}
+
+.content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+}
+
+.content h1 {
+      color: white;
+      font-size: 3rem;
+      font-style: italic;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+      text-align: center;
+}
+
+.form-card {
+      background: white;
+      width: 100%;
+      max-width: 450px;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.form-card h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 24px;
+      color: #333;
+}
+
+.form-group {
+      margin-bottom: 15px;
+}
+
+.form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 13px;
+      font-weight: bold;
+      color: #666;
+}
+
+.form-control {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #f9f9f9;
+}
+
+textarea.form-control {
+      height: 100px;
+      resize: none;
+}
+
+.check-group {
+      display: flex;
+      gap: 10px;
+      margin: 20px 0;
+      font-size: 12px;
+      color: #444;
+}
+
+.btn-send {
+      width: 100%;
+      padding: 15px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      text-transform: uppercase;
+}
+
+.modal-content {
+      border-radius: 15px;
+      padding: 10px;
+}
+.test{
+      color: red;
+}
+
+.modal-header {
+      border-bottom: none;
+}
+
+.modal-footer {
+      border-top: none;
+}
+
+.modal-title {
+      font-weight: bold;
+}
+
+@media (max-width: 768px) {
+      header {
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+      }
+
+      .content h1 {
+            font-size: 2rem;
+      }
+
+      nav ul li {
+            margin: 0 10px;
+      }
+}
+
+
+
+/* ! SSS CSS LERIM */
+.faq-answer {
+      color: white;
+      font-size: 25px;
+}
+
+.faq-question {
+      color: chocolate;
+      margin-bottom: 10px;
+      font-size: 23px;
+}
+
+.btn-btn-primary {
+      border-radius: 10px;
+      margin-left: 50px;
+}
+
+/* !SEARCH BUTON CSS I */
+/* ! 1) FORMU SAĞA ALMA */
+.form-inline {
+  display: flex;
+  justify-content: flex-end; /* sağa iter */
+  align-items: center;
+  width: 100%;
+}
+
+/* !2) my-2 (dikey margin küçük boşluk) */
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* !3) my-lg-0 (büyük ekranda margin sıfır) */
+@media (min-width: 992px) {
+  .my-lg-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+/* !4) input ve button düzeni */
+.form-inline input {
+  padding: 6px 10px;
+  margin-right: 5px;
+}
+
+.form-inline button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
