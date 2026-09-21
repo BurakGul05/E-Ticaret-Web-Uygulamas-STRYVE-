@@ -1,12 +1,8 @@
 # STRYVE — Spor E-Ticaret Web Uygulaması 🏋️
 
-STRYVE, spor malzemelerinin listelenebildiği ve yönetilebildiği responsive bir e-ticaret web uygulamasıdır.
+STRYVE, spor malzemelerinin sergilendiği ve yönetilebildiği responsive bir e-ticaret web uygulamasıdır.
 
-Proje; kullanıcıların ürünleri inceleyebildiği ve kendi hesaplarını oluşturabildiği bir kullanıcı arayüzünün yanı sıra, ürün ve stok yönetiminin gerçekleştirilebildiği ayrı bir **admin paneli** içermektedir.
-
-Bu proje ile frontend geliştirme, kullanıcı yetkilendirme, veritabanı bağlantısı ve yönetim paneli geliştirme konularında pratik yapmayı amaçladım.
-
----
+Proje; kullanıcıların hesap oluşturabildiği, ürünleri inceleyebildiği ve site üzerinden iletişim kurabildiği bir kullanıcı arayüzünün yanı sıra, ürün ve stok yönetiminin gerçekleştirilebildiği ayrı bir **admin paneli** içermektedir.
 
 ## ✨ Projenin Özellikleri
 
@@ -14,28 +10,21 @@ Bu proje ile frontend geliştirme, kullanıcı yetkilendirme, veritabanı bağla
 
 * Kullanıcı hesabı oluşturma
 * Kullanıcı girişi
-* Spor ürünlerini görüntüleme
+* Ürünleri görüntüleme
 * Ürün detaylarını inceleme
-* Responsive kullanıcı arayüzü
 * İletişim formu
-* Mobil, tablet ve masaüstü cihazlarla uyumlu tasarım
+* Mobil, tablet ve masaüstü cihazlarla uyumlu responsive tasarım
 
 ### 🔐 Admin Paneli
 
-Kullanıcı arayüzünden ayrı olarak ürünlerin yönetilebildiği bir admin paneli bulunmaktadır.
-
-Admin paneli üzerinden:
-
-* Admin hesabı oluşturulabilir
-* Admin girişi yapılabilir
-* Yeni ürün eklenebilir
-* Mevcut ürünler düzenlenebilir
-* Ürün isimleri değiştirilebilir
-* Ürün görselleri güncellenebilir
-* Ürün stok miktarları değiştirilebilir
-* Ürün bilgileri yönetilebilir
-
----
+* Admin hesabı oluşturma
+* Admin girişi
+* Yeni ürün ekleme
+* Mevcut ürünleri düzenleme
+* Ürün isimlerini değiştirme
+* Ürün görsellerini güncelleme
+* Stok miktarını güncelleme
+* Ürün bilgilerini yönetme
 
 ## 🛠️ Kullanılan Teknolojiler
 
@@ -47,71 +36,78 @@ Admin paneli üzerinden:
 * JavaScript
 * Vue.js
 
-### Backend & Veritabanı
+### Backend
+
+* Node.js
+
+### Veritabanı & Geliştirme Ortamı
 
 * MySQL
-* Apache
 * XAMPP
+* Apache
 
-> Vue.js, projenin kullanıcı arayüzünün geliştirilmesinde kullanılmıştır. MySQL veritabanı ve Apache sunucusu ise XAMPP üzerinden yerel geliştirme ortamında çalıştırılmaktadır.
+## ⚙️ Proje Yapısı
 
----
+Projenin kullanıcı arayüzü **Vue.js** kullanılarak geliştirilmiştir.
 
-## 📦 Ürün & Stok Yönetimi
+Backend tarafında **Node.js** kullanılarak uygulamanın sunucu tarafındaki işlemleri gerçekleştirilmiştir. Kullanıcı, admin ve ürün verileri **MySQL** veritabanında tutulmaktadır.
 
-Admin paneli sayesinde ürün bilgilerinin doğrudan sistem üzerinden yönetilebilmesi hedeflenmiştir.
+Admin paneli üzerinden gerçekleştirilen ürün ve stok değişiklikleri veritabanına aktarılmaktadır. Böylece ürün bilgilerinin değiştirilmesi için kaynak kodunun manuel olarak düzenlenmesine gerek kalmaz.
 
-Admin; ürün adı, ürün görseli ve stok bilgileri gibi verileri güncelleyebilir. Böylece ürünlerde yapılacak değişiklikler için doğrudan kaynak kodunun değiştirilmesine gerek kalmaz.
+## 📦 Ürün ve Stok Yönetimi
 
----
+Admin paneli üzerinden ürünlere ait bilgiler yönetilebilir.
+
+Admin;
+
+* Yeni ürün ekleyebilir
+* Ürün bilgilerini güncelleyebilir
+* Ürün görsellerini değiştirebilir
+* Stok miktarını güncelleyebilir
+
+Bu yapı sayesinde temel **CRUD (Create, Read, Update, Delete)** işlemlerinin uygulanması hedeflenmiştir.
+
+## 👥 Kullanıcı Rolleri
+
+Sistemde kullanıcı ve admin olmak üzere farklı kullanıcı rolleri bulunmaktadır.
+
+**Kullanıcılar**, site içerisindeki ürünleri görüntüleyebilir ve kendi hesaplarını oluşturabilir.
+
+**Adminler** ise yönetim paneline erişerek ürün ve stok bilgilerini yönetebilir.
 
 ## 📱 Responsive Tasarım
 
 STRYVE farklı ekran boyutlarına uyum sağlayacak şekilde responsive olarak geliştirilmiştir.
 
-Web sitesi;
-
-* Masaüstü 💻
-* Tablet
-* Mobil 📱
-
-cihazlarda kullanılabilecek şekilde tasarlanmıştır.
-
----
+Web sitesi masaüstü, tablet ve mobil cihazlarda kullanılabilecek şekilde tasarlanmıştır.
 
 ## 📩 İletişim Formu
 
 Kullanıcıların site üzerinden iletişim kurabilmeleri için bir iletişim formu bulunmaktadır.
 
-Form üzerinden kullanıcı bilgileri ve mesaj içeriği alınarak sistem içerisinde işlenebilir.
-
----
+Kullanıcılar iletişim bilgilerini ve mesajlarını form üzerinden sisteme gönderebilir.
 
 ## 🎯 Projenin Amacı
 
-Bu projeyi geliştirirken özellikle aşağıdaki konularda deneyim kazanmayı hedefledim:
+Bu projeyi geliştirirken özellikle;
 
 * Vue.js ile dinamik kullanıcı arayüzleri geliştirme
-* Responsive web tasarımı
-* Bootstrap component kullanımı
-* Kullanıcı ve admin giriş sistemleri
-* Kullanıcı rollerinin ayrılması
+* Node.js ile backend geliştirme
+* MySQL veritabanı kullanımı
+* Frontend ve backend arasındaki veri iletişimi
+* Kullanıcı kayıt ve giriş sistemi
+* Admin ve kullanıcı rollerinin ayrılması
 * Admin paneli geliştirme
-* CRUD mantığı
+* CRUD işlemleri
 * Ürün ve stok yönetimi
-* MySQL ile veritabanı kullanımı
-* Frontend ve veritabanı arasındaki veri akışını anlama
+* Bootstrap ile responsive arayüz geliştirme
 
----
+konularında deneyim kazanmayı hedefledim.
 
 ## 🚧 Geliştirme Durumu
 
 Proje geliştirme aşamasındadır. Yeni özellikler ve iyileştirmeler eklenmeye devam etmektedir.
 
 ---
-
-### 👨‍💻 Geliştirici
-
-Frontend & Web Development Project
 
 **Made with ☕ + VS Code**
